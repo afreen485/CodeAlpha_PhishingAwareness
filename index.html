@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PhishAware</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+    <div class="logo">
+        <i class="fa-solid fa-shield-halved"></i>
+        PhishAware
+    </div>
+
+    <ul>
+
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#types">Types</a></li>
+        <li><a href="#social">Social Engineering</a></li>
+        <li><a href="#tips">Safety Tips</a></li>
+
+    </ul>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+    <div class="hero-text">
+
+        <h1>
+            THINK BEFORE
+            <span>YOU CLICK!</span>
+        </h1>
+
+        <p>
+            Learn how phishing attacks work,
+            recognize fake emails and websites,
+            and stay safe online.
+        </p>
+
+    <div class="hero-buttons">
+
+    <a href="#about">
+        <button>
+            Learn More
+        </button>
+    </a>
+
+    <a href="quiz.html">
+        <button class="quiz-btn">
+            Take Quiz
+        </button>
+    </a>
+
+</div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/2490/2490419.png">
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="section" id="about">
+
+    <h2>What is Phishing?</h2>
+
+    <div class="cards four-grid">
+
+        <div class="card">
+
+            <i class="fa-solid fa-bug"></i>
+
+            <h3>Cyber Attack</h3>
+
+            <p>
+                Phishing is a cyber attack used
+                to steal sensitive information.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-envelope"></i>
+
+            <h3>Fake Emails</h3>
+
+            <p>
+                Attackers send fake emails
+                pretending to be trusted companies.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-lock"></i>
+
+            <h3>Steal Passwords</h3>
+
+            <p>
+                Victims unknowingly share passwords,
+                OTPs, and banking details.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-globe"></i>
+
+            <h3>Fake Websites</h3>
+
+            <p>
+                Duplicate login pages are used
+                to collect user information.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- TYPES -->
+
+<section class="section" id="types">
+
+    <h2>Types of Phishing</h2>
+
+    <div class="cards three-grid">
+
+        <div class="card">
+
+            <i class="fa-solid fa-envelope"></i>
+
+            <h3>Email Phishing</h3>
+
+            <p>
+                Fake emails pretending to be banks
+                or companies.
+            </p><br>
+            <h4>Example</h4>
+
+            <p class="example-text">
+                "An email claiming to be from SBI asking users
+                to verify account details through a malicious link."
+            </p>
+            <br>
+            <span>
+                ⚠ Collects login IDs, passwords, and bank details.
+            </span>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-message"></i>
+
+            <h3>Smishing</h3>
+
+            <p>
+                Fraudulent SMS messages used
+                to steal information.
+            </p>
+            <br>
+            <h4>Example</h4>
+
+            <p class="example-text">
+                "Congratulations! You won a lottery.
+                Share your bank details to claim the prize."
+            </p>
+            <br><br>
+            <span>
+                ⚠ Tricks users into sharing personal information.
+            </span>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-phone"></i>
+
+            <h3>Vishing</h3>
+
+            <p>
+                Fake calls pretending to be
+                bank officials.
+            </p><br><br>
+            <h4>Example</h4>
+
+            <p class="example-text">
+                "A fake HDFC customer-care call asking for OTP
+                to unblock ATM card."
+            </p>
+            <br><br>
+            <span>
+                ⚠ Fraudulent calls used to steal OTPs and passwords.
+            </span>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-bullseye"></i>
+
+            <h3>Spear Phishing</h3>
+
+            <p>
+                Targeted attacks on specific people.
+            </p><br><br>
+            <h4>Example</h4>
+
+            <p class="example-text">
+                "An email appearing to come from a senior officer
+                requesting urgent payment details."
+            </p>
+            <br>
+            <span>
+                ⚠ Very dangerous because attackers use personal information.
+            </span>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-crown"></i>
+
+            <h3>Whaling</h3>
+
+            <p>
+                Attacks targeting high-level executives.
+            </p><br><br>
+            <h4>Example</h4>
+
+            <p class="example-text">
+                "A forged email sent to a CEO requesting
+                fund transfer authorization."
+            </p>
+            <br>
+            <span>
+                ⚠ Targets important business officials.
+            </span>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-copy"></i>
+
+            <h3>Clone Phishing</h3>
+
+            <p>
+                Exact copies of legitimate emails
+                with malicious links.
+            </p><br>
+            <h4>Example</h4>
+
+            <p class="example-text">
+                "A fake IRCTC ticket confirmation email
+                containing a harmful link."
+            </p>
+            <br>
+            <span>
+                ⚠ Malicious links look genuine and trustworthy.
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FAKE VS REAL -->
+
+<section class="section">
+
+    <h2>Fake vs Real Email</h2>
+
+    <div class="comparison">
+
+        <div class="fake">
+
+            <h3>❌ Fake Email</h3>
+
+            <img src="fakeemail.jpg">
+
+            <p>
+                Suspicious links,
+                spelling mistakes,
+                urgent messages.
+            </p>
+
+        </div>
+
+        <div class="real">
+
+            <h3>✅ Real Email</h3>
+
+            <img src="realemail.jpg">
+
+            <p>
+                Official sender,
+                professional format,
+                secure domain.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- RECOGNIZE EMAILS -->
+
+<section class="section">
+
+    <h2>How to Recognize Phishing Emails</h2>
+
+    <div class="cards four-grid">
+
+        <div class="card">
+            <i class="fa-solid fa-link"></i>
+            <h3>Suspicious Links</h3>
+            <p>Hover before clicking links.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-spell-check"></i>
+            <h3>Spelling Mistakes</h3>
+            <p>Many phishing emails contain errors.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-user-secret"></i>
+            <h3>Unknown Sender & Anti-Phishing Tools</h3>
+            <p>
+                Check sender emails carefully and use
+                anti-phishing tools for protection.
+            </p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <h3>Urgent Messages</h3>
+            <p>Scammers create fear and urgency.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FAKE WEBSITES -->
+
+<section class="section">
+
+    <h2>How to Identify Fake Websites</h2>
+
+    <div class="comparison">
+
+        <div class="fake">
+
+            <h3>❌ Fake Website</h3>
+
+            <img src="fakeweb.jpg">
+
+            <p>
+                Wrong spelling,
+                fake login page,
+                suspicious design.
+            </p>
+
+        </div>
+
+        <div class="real">
+
+            <h3>✅ Real Website</h3>
+
+            <img src="realweb.jpg">
+
+            <p>
+                HTTPS security,
+                official domain,
+                trusted design.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SOCIAL ENGINEERING -->
+
+<section class="section" id="social">
+
+    <h2>Social Engineering Tactics</h2>
+
+    <div class="cards four-grid">
+
+        <div class="card">
+
+            <i class="fa-solid fa-triangle-exclamation"></i>
+
+            <h3>Create Fear</h3>
+
+            <p>
+                "Your account will be blocked!"
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-gift"></i>
+
+            <h3>Offer Rewards</h3>
+
+            <p>
+                "You won ₹10 lakh!"
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-user-tie"></i>
+
+            <h3>Pretend Authority</h3>
+
+            <p>
+                Fake bank officials or support staff.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-brain"></i>
+
+            <h3>Manipulate Emotions</h3>
+
+            <p>
+                Attackers use urgency and excitement.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- REAL WORLD EXAMPLES -->
+
+<section class="section">
+
+    <h2>Real-World Phishing Examples</h2>
+
+    <div class="cards two-grid">
+
+        <div class="card">
+
+            <h3>🏦 Fake SBI KYC Scam</h3>
+
+            <p>
+                “Your SBI account will be blocked.
+                Update KYC immediately.”
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🎁 Lottery Scam</h3>
+
+            <p>
+                “Congratulations! You won ₹10 lakh.”
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SAFETY -->
+
+<section class="section" id="tips">
+
+    <h2>Best Practices & Safety Tips</h2>
+
+    <div class="cards three-grid">
+
+        <div class="card">
+            ✅ Never click unknown links
+        </div>
+
+        <div class="card">
+            ✅ Use strong passwords
+        </div>
+
+        <div class="card">
+            ✅ Enable MFA
+        </div>
+
+        <div class="card">
+            ✅ Verify sender email
+        </div>
+
+        <div class="card">
+            ✅ Never share OTP
+        </div>
+
+        <div class="card">
+            ✅ Install antivirus software
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h3>PhishAware</h3>
+
+    <p>
+        Created for CodeAlpha Cyber Security Internship
+    </p>
+
+</footer>
+
+</body>
+</html>
